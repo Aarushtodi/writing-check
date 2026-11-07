@@ -1,0 +1,6 @@
+extends: existence
+message: "No exclamation points ('%s') outside texts to friends and family."
+level: error
+nonword: true
+tokens:
+  - '\w!+(?:\s|$)'

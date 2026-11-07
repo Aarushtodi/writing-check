@@ -1,0 +1,7 @@
+extends: existence
+message: "Remove spaces around the slash. (Grammarly: SpacesSurroundingSlash)"
+level: suggestion
+nonword: true
+tokens:
+  - '\w\s+/\s*\w'
+  - '\w\s*/\s+\w'

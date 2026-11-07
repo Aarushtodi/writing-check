@@ -1,0 +1,7 @@
+extends: existence
+message: "No underscores or blank lines like ___ in drafts."
+level: error
+scope: text
+nonword: true
+tokens:
+  - '_{2,}'

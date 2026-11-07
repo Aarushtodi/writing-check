@@ -1,0 +1,8 @@
+#!/bin/bash
+case "$1" in
+ off) touch ~/.writing_watch_off; echo "paused (still running, ignoring copies)";;
+ on) rm -f ~/.writing_watch_off; echo "resumed";;
+ stop) launchctl bootout gui/$(id -u)/com.writingcheck.writingwatch; echo "stopped";;
+ start) launchctl bootstrap gui/$(id -u) ~/Library/LaunchAgents/com.writingcheck.writingwatch.plist; echo "started";;
+ *) [ -f ~/.writing_watch_off ] && echo paused || echo active; tail -3 ~/writing-tools/watcher.log;;
+esac

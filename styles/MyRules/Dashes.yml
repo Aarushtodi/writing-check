@@ -1,0 +1,10 @@
+extends: existence
+message: "No dashes of any kind (em, en, or spaced hyphen). Use a comma, period, or 'to'."
+level: error
+scope: text
+nonword: true
+tokens:
+  - '—'
+  - '–'
+  - '\s-\s'
+  - '--'

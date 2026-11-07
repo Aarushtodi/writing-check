@@ -1,0 +1,6 @@
+extends: existence
+message: "Spell out numbers zero through ten in prose ('%s'). Ignore for scores, dates, money. (Grammarly: NumbersZeroThroughTen)"
+level: suggestion
+scope: sentence
+tokens:
+  - '(?<![\d.$/:-])\b(?:[0-9]|10)\b(?![\d.%:/-])'

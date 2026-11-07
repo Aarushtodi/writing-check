@@ -1,0 +1,7 @@
+extends: existence
+message: "Spell out a number that begins a sentence. (Grammarly: NumbersBeginningSentences)"
+level: warning
+scope: sentence
+nonword: true
+tokens:
+  - '^\d+'

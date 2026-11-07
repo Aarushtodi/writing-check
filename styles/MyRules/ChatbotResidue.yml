@@ -1,0 +1,16 @@
+extends: existence
+message: "'%s' is chatbot residue or a staged run up (Humanizer 4, 22). Cut it and start with the point."
+level: warning
+ignorecase: true
+tokens:
+  - "great question"
+  - "I hope this helps"
+  - "hope this (message|email|note) finds you"
+  - "let me know if you have any (other |further )?questions"
+  - "happy to help"
+  - "let'?s dive in"
+  - "let'?s break (it|this) down"
+  - "here'?s the thing"
+  - "at its core"
+  - "in conclusion"
+  - "thank you (so much )?for your time and consideration"

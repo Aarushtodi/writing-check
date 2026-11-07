@@ -1,0 +1,15 @@
+extends: existence
+message: "'%s' is bland. Use a more specific word. (Grammarly: Vocabulary)"
+level: suggestion
+ignorecase: true
+tokens:
+  - good
+  - nice
+  - very
+  - really
+  - great
+  - stuff
+  - things?
+  - a lot
+  - kind of
+  - basically

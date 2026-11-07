@@ -1,0 +1,9 @@
+extends: existence
+message: "'%s' is the 'not X, it's Y' AI tic. State the point directly."
+level: warning
+ignorecase: true
+tokens:
+  - "it'?s not (just |only |about )?[^.,;]{1,40}, it'?s"
+  - "not just [^.,;]{1,40}, but"
+  - "isn'?t (just |only )?[^.,;]{1,40}, it'?s"
+  - "isn'?t (just |only )?[^.,;]{1,40}\\s*[—–-]+\\s*it'?s"

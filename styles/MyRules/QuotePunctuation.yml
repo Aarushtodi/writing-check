@@ -1,0 +1,6 @@
+extends: existence
+message: "Put the period or comma inside closing quotation marks. (Grammarly: PunctuationWithQuotation)"
+level: suggestion
+nonword: true
+tokens:
+  - '"[,.]'

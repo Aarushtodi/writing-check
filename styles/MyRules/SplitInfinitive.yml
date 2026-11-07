@@ -1,0 +1,6 @@
+extends: existence
+message: "'%s' splits the infinitive. Move the adverb. (Grammarly: SplitInfinitive)"
+level: suggestion
+ignorecase: true
+tokens:
+  - 'to (?:really|just|actually|always|never|quickly|simply|fully|completely|truly|better) \w+'

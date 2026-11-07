@@ -1,0 +1,27 @@
+extends: existence
+message: "'%s' inflates or sells (Humanizer 13, 16, 18). Say what the thing is or does."
+level: warning
+ignorecase: true
+tokens:
+  - "serves as"
+  - "stands as"
+  - "boasts"
+  - "showcasing"
+  - "symboliz(e|es|ing)"
+  - "a pivotal moment"
+  - "plays? an? (vital|crucial|key|pivotal) role"
+  - "the future (looks|is) bright"
+  - "the future of [^.]{1,30} is here"
+  - "continues to thrive"
+  - "nestled"
+  - "breathtaking"
+  - "cutting[ -]edge"
+  - "smarter, not harder"
+  - "to the next level"
+  - "empower(s|ing)?"
+  - "full potential"
+  - "all[ -]in[ -]one"
+  - "remarkable"
+  - "deeply passionate"
+  - "truly inspired"
+  - "game[ -]changer"

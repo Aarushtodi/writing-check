@@ -1,0 +1,29 @@
+extends: existence
+message: "'%s' reads as AI. Use a plainer word."
+level: warning
+ignorecase: true
+tokens:
+  - delve
+  - tapestry
+  - testament
+  - landscape of
+  - navigate the
+  - in today's
+  - game-changer
+  - unlock
+  - leverage
+  - seamless
+  - robust
+  - holistic
+  - elevate
+  - crucial
+  - pivotal
+  - underscores
+  - foster
+  - realm
+  - "it'?s worth noting"
+  - "at the end of the day"
+  - "I hope this email finds you well"
+  - "I wanted to reach out"
+  - "I'?m excited to"
+  - "I would love to"

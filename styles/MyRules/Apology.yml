@@ -1,0 +1,10 @@
+extends: existence
+message: "'%s' is apology padding. Cut it unless you really owe one."
+level: suggestion
+ignorecase: true
+tokens:
+  - "sorry to bother"
+  - "apologi[sz]e for the inconvenience"
+  - "I hope you don'?t mind"
+  - "just wanted to"
+  - "just checking in"

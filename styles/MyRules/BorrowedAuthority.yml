@@ -1,0 +1,12 @@
+extends: existence
+message: "'%s' borrows authority or hedges on missing info (Humanizer 17, 23). Name the real source or cut it."
+level: suggestion
+ignorecase: true
+tokens:
+  - "experts (say|believe|agree)"
+  - "studies (show|suggest)"
+  - "research (shows|suggests)"
+  - "many (people )?believe"
+  - "it is widely (known|believed|accepted)"
+  - "while (details|information) (is|are) limited"
+  - "based on available (information|sources)"
